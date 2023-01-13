@@ -1,6 +1,6 @@
 # CS476_Project
 
-Group
+Group:
 Therese Lyle Uy, Terrance Nguyen, Thayne Winder, Abdul Aziz Mian, Amiel De Los Reyes
 
 
