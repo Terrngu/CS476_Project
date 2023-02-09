@@ -1,0 +1,91 @@
+<html><head>
+		<title>Sign Up</title>
+		<script type="text/javascript" src="js/signupValidate.js"> </script>  
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=devicewidth, initial-scale=1">
+		<link rel="stylesheet" type="text/css" media="screen and (max-width:580px)" href="small-devices.css">
+		<link rel="stylesheet" type="text/css" media="screen and (min-width:581px)" href="large-devices.css">
+
+	</head>
+
+	<body>
+<header>
+<h2>Dev2Friend</h2>
+</header>
+
+<section>
+	<form id="Signup" action="Signup.php" method="post" enctype="multipart/form-data">
+		<p class="err_msg"></p>
+		<table class="form">
+		<tbody>
+			<tr>
+				<td><p>Create User Account</p><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>Email:</p><p class="border2"></p></td>
+				<td> <input type="text" id="email" name="email" size="30" value=""> <p class="border2"></p></td>
+				<td><label id="email_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td><p>Username:</p><p class="border2"></p></td>
+				<td><input type="text" id="uname" name="uname" size="30" value=""><p class="border2"></p></td>
+				<td><label id="uname_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td><p>First Name:</p><p class="border2"></p></td>
+				<td><input type="text" id="fname" name="fname" size="30" value=""><p class="border2"></p></td>
+				<td><label id="fname_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td><p>Last Name:</p><p class="border2"></p></td>
+				<td><input type="text" id="lname" name="lname" size="30" value=""><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>Date of Birth:</p><p class="border2"></p></td>
+				<td><input type="text" id="dob" name="dob" size="30" value="mm/dd/yyyy"><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>Password:</p><p class="border2"></p></td>
+				<td> <input type="password" id="pswd" name="pswd" size="30"><p class="border2"></p></td>
+				<td><label id="pswd_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td><p>Confirm Password:</p><p class="border2"></p></td>
+				<td> <input type="password" id="pswdr" name="pswdr" size="30"><p class="border2"></p></td>
+				<td><label id="pswdr_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td><p>Education:</p><p class="border2"></p></td>
+				<td><input type="text" id="edu" name="edu" size="30" value=""><p class="border2"></p></td>
+				<td><p>(optional)</p><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>Programming Proficiencies</p><p class="border2"></p></td>
+				<td><input type="text" id="progprof" name="progprof" size="30" value=""><p class="border2"></p></td>
+				<td><p>(optional)</p><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>Phone Number</p><p class="border2"></p></td>
+				<td><input type="text" id="phone" name="phone" size="30" value=""><p class="border2"></p></td>
+				<td><p>(optional)</p><p class="border2"></p></td>
+			</tr>
+			<tr>
+				<td><p>User Icon :</p><p class="border2"></p></td>
+				<td> <input type="file" id="fileToUpload" name="fileToUpload"><p class="border2"></p></td>
+				<td><p>(optional)</p><p class="border2"></p><label id="photo_msg" class="err_msg"></label></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Sign Up"></td>
+			</tr>	
+					</tbody>
+	</table>
+		<input type="hidden" name="submitted" value="1">
+
+	</form>
+</section>
+
+           
+	
+	<script tyle="text/javascript" src="js/signup-r.js"></script>
+</body></html>

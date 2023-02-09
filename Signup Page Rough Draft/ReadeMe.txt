@@ -1,0 +1,8 @@
+Here are two different layout options. 
+
+Signup2 is closer the drawing
+
+Signup is my proposed alternate layout.
+
+Line 6 and 7 in both html files link to a style sheet. 
+I have also included the style sheets I made for 215 as an example.

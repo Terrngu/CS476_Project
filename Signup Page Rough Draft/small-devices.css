@@ -1,0 +1,169 @@
+html{
+	color: #eeeeeeee;	
+	background-color: #323639;
+	font-size: 15px;	
+
+ 	margin: auto;
+  	border: 3px solid #038811;
+}
+
+
+
+p.border{
+	width: 98%;
+	border-bottom-style: solid;
+	border-color: #038811;
+}
+
+a:link {
+	color: #03ac90;
+
+
+}
+
+a:visited {
+	color: #965406;
+
+}
+
+a:link.user {
+	color: #03ac90;
+	 text-decoration: none;
+	 font-size:30px;
+
+}
+
+a:visited.user {
+	color: #965406;
+	 text-decoration: none;
+	 font-size:30px;
+}
+
+a:link.userp {
+	color: #03ac90;
+	 text-decoration: none;
+	 font-size:50px;
+
+}
+
+a:visited.userp {
+	color: #965406;
+	 text-decoration: none;
+	 font-size:50px;
+}
+
+a:link.postin {
+	color: #965406;
+	 text-decoration: none;
+	 font-size:30px;
+	 float: right; 
+	 display: inline-block; 
+	 padding: 10px; 
+	 background-color: #2b2e30;"
+
+}
+
+a:visited.postin {
+	color: #965406;
+	 text-decoration: none;
+	 font-size:30px;
+	 float: right; 
+	 display: inline-block; 
+	 padding: 10px; 
+	 background-color: #2b2e30;"
+}
+
+ul {
+	list-style-type: square;
+}
+
+p {
+	
+	
+	
+}
+
+aside {
+padding: 1em;
+
+    
+}
+
+header, footer {
+	border-bottom-style: solid;
+        border-top-style: solid;
+
+	border-color: #038811;	
+
+        background-color: black;
+	
+
+}
+
+section {
+    padding: 1em;
+}
+
+header {
+    padding: auto;
+    margin: 0;
+    color: #038811;
+}
+
+div {
+
+	width: 75%;
+	border-bottom-style: solid;
+	border-color: #2b2e30;	
+
+	padding: 30px;
+	margin: 20px;
+}
+
+div.post {
+
+  width: 95%;
+  border: 3px solid green;
+  padding: 0px;
+  margin: 0px;
+}
+div.addon {
+
+  width: 95%;
+  border-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.repost {
+	width: 74%;
+	border-top-style: solid;
+  	border-right-style: solid;
+  	border-bottom-style: solid;
+  	border-left-style: solid;
+	border-color: #2b2e30;
+	padding: 10px;
+	margin: 0px;
+}
+
+.help {
+	font-size: 12px;
+}
+
+.error{
+	color: red;
+	border: solid red 1px;
+	font-size: 12px;
+	padding: 1px;
+	display: none;
+}
+
+.post {
+	width: 300px; 
+	padding: 1px;
+}
+
+.err_msg {
+
+	color: red;
+}
