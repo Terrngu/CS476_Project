@@ -208,18 +208,18 @@ a
   height:100%;
 }
 /*----*/
-#project
+#project-filter
 {
   margin-top:70px;
   height:242px;
 }
-#project .p-bar
+#project-filter .p-bar
 {
   display:block;
   align-items:center;
   justify-content:left;
 }
-#project #search
+#project-filter #search
 {
   border:none;
   width:250px;
@@ -227,7 +227,7 @@ a
   background:#EFE6DD;
   
 }
-#project .search-container button
+#project-filter .search-container button
 {
   border:none;
   cursor:pointer;
@@ -269,7 +269,7 @@ a
   background:#231F20;
   overflow:hidden;
 }
-#project .p-bar p
+#project-filter .p-bar p
 {
   color:#EFE6DD;
 }
@@ -293,4 +293,6 @@ a
   width:200px;
   height:350px;
 }
+
+
 
