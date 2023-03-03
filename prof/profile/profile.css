@@ -1,0 +1,31 @@
+body{
+    margin-top:20px;
+    font-size:100%;
+    background-color:aquamarine;
+}
+.main{
+    padding: 15px;
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(221, 243, 236);
+}
+.sidebar{
+    background-color: aquamarine;
+    color: darkblue;
+    height: 100%;
+}
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: darkblue;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    background-color: aquamarine;
+}
