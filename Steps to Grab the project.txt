@@ -1,0 +1,26 @@
+Steps to Grab the project:
+
+1. Open XAMMP, start servers. //
+2. Grab Folder from Github //
+3. Copy paste 'D2F_v1' folder to htdocs and Change whole folder name to 'D2F' //
+
+4. Once you get the folder, create a Database on localhost/phpmyadmin called 'dev2friend' //
+
+5. Import the sql file called 'dev2friend.sql' //
+
+6. Edit 'database.php' from application/config/database.php and set username = 'root' and password = 'password' then click save.
+
+7. now go to your browser and type localhost:80/D2F, it should direct you to the dashboard of our website. 
+
+Side Notes:
+
+- Go to localhost/phpmyadmin
+
+- Go to User Accounts, Edit Priveleges for root localhost
+
+- Create password and set it as 'password'.
+
+Done!
+
+
+
