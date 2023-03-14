@@ -172,7 +172,7 @@
 											"top": 421,
 											"width": 41.17724609375,
 											"height": 13,
-											"text": "Actor1"
+											"text": "User"
 										},
 										{
 											"_type": "LabelView",
@@ -4052,7 +4052,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Actor1",
+					"name": "User",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
